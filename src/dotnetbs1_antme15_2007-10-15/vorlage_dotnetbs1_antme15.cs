@@ -1,5 +1,32 @@
 using System.Collections.Generic;
 
+/**
+ *
+ *  @package   antme
+ *  @file      vorlage_dotnetbs1_antme16.cs
+ *  @brief     Implementierung der AntMe! Datei "Vorlage.cs"
+ *  @author    Rolf Hemmerling <hemmerling@gmx.net>
+ *  @version   1.00, 
+ *             Programmiersprache C#,
+ *             Entwicklungswerkzeug "Microsoft Visual Studio 2013 Express"
+ *  @date      2015-01-01
+ *  @copyright AntMe! Community License
+ *
+ *  vorlage_dotnetbs1_antme16.cs - Implementierung der AntMe! 
+ *                                 Datei "Vorlage.cs"
+ *                                 fuer AntMe! 1.5
+ *
+ *  Copyright 2007-2015 Rolf Hemmerling
+ *
+ *  Licensed under the AntMe! Community License;
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *  http://www.antme.net/
+ *
+ *  Haupt-Entwicklungszeitraum am: 2007-10-15
+ *
+ */
 // Füge hier hinter AntMe.Spieler einen Punkt und deinen Namen ohne Leerzeichen
 // ein! Zum Beispiel "AntMe.Spieler.AntonMüller".
 namespace AntMe.Spieler.DotNetBS1
