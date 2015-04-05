@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{83EAA90B-3F09-4663-8450-758D5DD1FD5C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AntMe.Spieler</RootNamespace>
+    <AssemblyName>AntMe.SpielerCS</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartArguments>
+    </StartArguments>
+    <StartAction>Program</StartAction>
+    <StartProgram>$(MSBuildProjectDirectory)\bin\AntMe.exe</StartProgram>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <StartArguments>
+    </StartArguments>
+    <StartAction>Program</StartAction>
+    <StartProgram>$(MSBuildProjectDirectory)\bin\AntMe.exe</StartProgram>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AntMe.DemoAmeisen">
+      <HintPath>..\..\AntMe.DemoAmeisen.dll</HintPath>
+    </Reference>
+    <Reference Include="AntMe.Online.Client">
+      <HintPath>..\..\AntMe.Online.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="AntMe.Online.Client.resources">
+      <HintPath>..\..\de\AntMe.Online.Client.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="AntMe.PlayerManagement">
+      <HintPath>..\..\AntMe.PlayerManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="AntMe.PlayerManagement.resources">
+      <HintPath>..\..\de\AntMe.PlayerManagement.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="AntMe.Plugin.GdiPlusPlugin">
+      <HintPath>..\..\AntMe.Plugin.GdiPlusPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="AntMe.Plugin.GdiPlusPlugin.resources">
+      <HintPath>..\..\de\AntMe.Plugin.GdiPlusPlugin.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="AntMe.Plugin.Simulation">
+      <HintPath>..\..\AntMe.Plugin.Simulation.dll</HintPath>
+    </Reference>
+    <Reference Include="AntMe.Plugin.Simulation.resources">
+      <HintPath>..\..\de\AntMe.Plugin.Simulation.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="AntMe.Plugin.Xna">
+      <HintPath>..\..\AntMe.Plugin.Xna.dll</HintPath>
+    </Reference>
+    <Reference Include="AntMe.Plugin.Xna.resources">
+      <HintPath>..\..\de\AntMe.Plugin.Xna.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="AntMe.resources">
+      <HintPath>..\..\de\AntMe.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="AntMe.SharedComponents">
+      <HintPath>..\..\AntMe.SharedComponents.dll</HintPath>
+    </Reference>
+    <Reference Include="AntMe.SharedComponents.resources">
+      <HintPath>..\..\de\AntMe.SharedComponents.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="AntMe.Simulation">
+      <HintPath>..\..\AntMe.Simulation.dll</HintPath>
+    </Reference>
+    <Reference Include="AntMe.Simulation.resources">
+      <HintPath>..\..\de\AntMe.Simulation.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 und x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="vorlage_dotnetbs2_antme16.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Users\Public\AntMe\AntMe.exe</StartProgram>
+    <StartArguments>/file="C:\Users\Public\AntMe\src\antme17_vorlage\Vorlage\bin\AntMe.Player.Vorlage.dll"</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Users\Public\AntMe\AntMe.exe</StartProgram>
+    <StartArguments>/file="C:\Users\Public\AntMe\src\antme17_vorlage\Vorlage\bin\AntMe.Player.Vorlage.dll"</StartArguments>
+  </PropertyGroup>
+</Project>
