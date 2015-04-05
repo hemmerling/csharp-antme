@@ -1,5 +1,5 @@
 # csharp-antme
-Zwei C# Code-Ergebnisse von Antme!-Wettbewerben ( Implementierungen von Ameisen-Gewinnspielstrategien in Vorlage.cs )
+Zwei C# Code-Ergebnisse von AntMe!-Wettbewerben ( Implementierungen von Ameisen-Gewinnspielstrategien in Vorlage.cs )
 
 AntMe!
 http://www.antme.net/
