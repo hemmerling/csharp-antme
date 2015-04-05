@@ -19,7 +19,7 @@ using AntMe.Deutsch;
  *                                 Datei "Vorlage.cs"
  *                                 fuer AntMe! 1.6 / 1.7
  *
- *  Copyright 2007-2015 Rolf Hemmerling
+ *  Copyright 2013-2015 Rolf Hemmerling
  *
  *  Licensed under the AntMe! Community License;
  *  you may not use this file except in compliance with the License.
